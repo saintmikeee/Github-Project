@@ -1,0 +1,156 @@
+<!--
+Welcome to your wholesome website project!
+This version is focused on the PORTFOLIO page only.
+This is your self-growth progression portfolio — showing what you've built, enjoyed, and learned.
+Everything is clearly explained for a beginner to grow with it.
+Now updated to be mobile-responsive for all mobile platforms.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- This tells the browser what language and how to display the page -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Growth Journey</title>
+
+  <!-- Load EB Garamond font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Responsive layout styling for all mobile platforms -->
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 1024px) {
+      header,
+      nav,
+      main,
+      footer {
+        padding: 1rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 0.5rem;
+        font-size: 1rem;
+      }
+
+      section {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      p, li {
+        font-size: 1rem;
+      }
+
+      img[alt="My Profile Picture"] {
+        display: block;
+        margin: 0 auto 1rem;
+        width: 150px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 0.3rem 0;
+        font-size: 1rem;
+      }
+
+      p, li {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- This is the big title at the top of the page -->
+  <header>
+    <h1>My Growth Journey</h1>
+    <p>Documenting projects that built my character and honored God</p>
+  </header>
+
+  <!-- This is the navigation bar to go to other pages later -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog (Coming Soon)</a>
+    <a href="portfolio.html">Portfolio</a> <!-- We're on this page now -->
+  </nav>
+
+  <!-- This is the main area where all the portfolio content will live -->
+  <main>
+    <!-- SECTION 1: Who I Am -->
+    <section id="intro">
+      <h2>Who I Am</h2>
+      <!-- Profile picture added below -->
+      <img src="profile/profile.png" alt="My Profile Picture" style="max-width: 200px; border-radius: 50%; display: block; margin-bottom: 1rem;">
+      <p>This portfolio is a reflection of my walk with God, my growth in skill, and my creative journey through projects I enjoyed and learned from.</p>
+    </section>
+
+    <!-- SECTION 2: Significant Projects that Got Me Here -->
+    <section id="milestones">
+      <h2>Milestone Projects</h2>
+      <ul>
+        <li>Wrote and self-published a book on healing through faith and nutrition</li>
+        <li>Rebuilt a custom café racer motorcycle from the frame up</li>
+        <li>Restored old car body panels using spot welding and refinishing</li>
+        <li>Worked in warehousing, developing a strong work ethic and discipline</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 3: Current Personal Projects -->
+    <section id="current-projects">
+      <h2>Projects I'm Working On</h2>
+      <ul>
+        <li>Launching a faith-based virtual restaurant: The Food by God</li>
+        <li>Studying ASE certifications to become a skilled mechanic</li>
+        <li>Building this website to glorify God and inspire others</li>
+        <li>Learning how to create music that reflects peace and purpose</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 4: Things I Enjoy Doing -->
+    <section id="joy">
+      <h2>Things That Bring Me Joy</h2>
+      <ul>
+        <li>Fixing things with my hands—engines, electronics, and furniture</li>
+        <li>Designing and creating—whether through 3D printing, art, or writing</li>
+        <li>Cooking nourishing meals rooted in natural healing</li>
+        <li>Riding motorcycles and restoring gear</li>
+        <li>Spending time in God’s Word and sharing wisdom with others</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer with a Bible verse for encouragement -->
+  <footer>
+    <p>&copy; 2025 My Life in Christ. All rights reserved.</p>
+    <p>"Commit to the Lord whatever you do, and He will establish your plans." - Proverbs 16:3</p>
+  </footer>
+</body>
+
+</html>

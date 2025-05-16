@@ -1,0 +1,170 @@
+/*
+Welcome to your website's style sheet!
+This file controls how everything *looks* — colors, spacing, fonts, etc.
+We are using a warm, natural, rustic, and chapel-inspired theme to reflect the peace and beauty of God's house in the countryside.
+
+Font: 'EB Garamond' applied site-wide for a classic, elegant look.
+Color scheme: Earthy browns, parchment tan, rustic red, and soft linen.
+*/
+
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* WHOLE PAGE */
+  body {
+    font-family: 'EB Garamond', serif;
+    background-color: #fdf6ec; /* Soft parchment tan */
+    color: #4e3d2c; /* Deep rustic brown */
+    line-height: 1.6;
+  }
+  
+  /* HEADER AREA */
+  header {
+    background-color: #7c3f26; /* Rustic chapel red */
+    color: #fff8f0; /* Warm white */
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* NAVIGATION BAR */
+  nav {
+    background-color: #e9dbc9; /* Soft linen neutral */
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #4e3d2c;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* MAIN CONTENT */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    background-color: #fbf4df; /* Light parchment */
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  }
+  
+  h1, h2 {
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  /* FOOTER AREA */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e9dbc9;
+    color: #4e3d2c;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  
+  /* RESPONSIVE DESIGN FOR ALL MOBILE PLATFORMS */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 1024px) {
+    header,
+    nav,
+    main,
+    footer {
+      padding: 1rem;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    p, li {
+      font-size: 1rem;
+    }
+  
+    img[alt="My Profile Picture"] {
+      display: block;
+      margin: 0 auto 1rem;
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    nav a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    p, li {
+      font-size: 0.95rem;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    nav a {
+      font-size: 0.95rem;
+    }
+  
+    p, li {
+      font-size: 0.9rem;
+    }
+  
+    img[alt="My Profile Picture"] {
+      width: 120px;
+    }
+  }
